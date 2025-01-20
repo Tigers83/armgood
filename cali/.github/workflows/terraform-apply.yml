@@ -3,7 +3,7 @@ name: "Terraform Apply"
 on:
   push:
     branches:
-      - main
+      - cali
 
 env:
   TF_CLOUD_ORGANIZATION: "armtest"
