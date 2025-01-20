@@ -1,6 +1,6 @@
 resource "aws_launch_template" "app1_LT" {
   name_prefix   = "app1_LT"
-  image_id      = "ami-038bba9a164eb3dc1"  
+  image_id      = "ami-038bba9a164eb3dc1"
   instance_type = "t2.micro"
 
   key_name = "arm-cali-key"
