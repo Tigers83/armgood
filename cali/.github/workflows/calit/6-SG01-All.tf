@@ -89,7 +89,7 @@ resource "aws_security_group" "app1-syslog-sg01" {
     protocol    = "UDP"
     cidr_blocks = ["0.0.0.0/0"]
   }
- ingress {
+  ingress {
     description = "ssh"
     from_port   = 22
     to_port     = 22
